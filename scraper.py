@@ -51,9 +51,9 @@ def connect():
 ### Shapefile for l_places
 
 import fiona
-shape = fiona.open("/Users/zakariaelhjouji/Downloads/ZillowNeighborhoods-FL/ZillowNeighborhoods-FL.shp")
+# shape = fiona.open("/Users/zakariaelhjouji/Downloads/ZillowNeighborhoods-FL/ZillowNeighborhoods-FL.shp")
 
-l_places = [shape[i]['properties']['Name'] for i in range(len(shape))]
+# l_places = [shape[i]['properties']['Name'] for i in range(len(shape))]
 
 
 # ## Utils
