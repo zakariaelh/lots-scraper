@@ -1,0 +1,41 @@
+1545763564875	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.5sLyyrk64wGS"
+1545763568004	Marionette	INFO	Listening on port 50771
+1545763568114	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1470184067.1545763569, line 104: unreachable code after return statement
+1545763576527	Marionette	INFO	Stopped listening on port 50771
+1545763715305	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.YlcItxnnTf22"
+1545763717066	Marionette	INFO	Listening on port 51159
+1545763717152	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: devtools/client/shared/components/tree/TreeCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: devtools/client/shared/components/tree/LabelCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: devtools/client/shared/scroll
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: devtools/client/shared/vendor/react-redux
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: devtools/client/shared/vendor/redux
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1681375826.1545763718, line 104: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1681375826.1545763718, line 104: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1681375826.1545763718, line 104: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1681375826.1545763718, line 104: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1545763977473	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.b8tseNc2UHzr"
+1545763979367	Marionette	INFO	Listening on port 52445
+1545763979417	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1235571576.1545763980, line 104: unreachable code after return statement
+1545763992629	Marionette	INFO	Stopped listening on port 52445
+1545764004734	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.C7OeEttzQV8I"
+1545764006335	Marionette	INFO	Listening on port 52671
+1545764006376	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=935158563.1545764007, line 104: unreachable code after return statement
+1545764014535	Marionette	INFO	Stopped listening on port 52671

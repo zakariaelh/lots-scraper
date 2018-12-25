@@ -1,0 +1,58 @@
+.scrolltable td, th {
+	border: 1px solid #ddd;
+}
+
+
+.scrolltable th {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 12pt;
+}
+
+
+.scrolltable tr:hover {
+	background-color: #ddd;
+}
+
+.scrolltable tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.scrolltable thead tr {
+    display:block;
+}
+
+
+.scrolltable tbody td, thead th {
+	width : 200px;
+	height: 100px;
+}
+
+.scrolltable button {
+	cursor : pointer;
+	background: transparent;
+	border: none !important;
+	width : 110px;
+	height: 90px;
+}
+
+
+.scrolltable tbody {
+  display:block;
+  height:400px;
+  overflow:auto; 
+}
+
+
+.scrolltable {
+  table-layout:fixed;
+}
+
+
+.cala input[type=text] {
+    width: 5px;
+}
+
+
+
