@@ -1,0 +1,15 @@
+Fiona==1.7.13
+dash==0.28.5
+dash_html_components==0.13.2
+selenium==3.14.1
+dash_core_components==0.35.0
+numpy==1.13.1
+pandas==0.20.3
+requests==2.18.4
+termcolor==1.1.0
+dash_table_experiments==0.6.0
+scipy==0.19.1
+Flask==0.12.2
+geopy==1.11.0
+beautifulsoup4==4.6.3
+progressbar2==3.39.2
