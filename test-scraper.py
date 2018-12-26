@@ -8,7 +8,7 @@ display.start()
 
 url = 'https://www.zillow.com/user/Login.htm'
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 
 driver.get(url)
 
