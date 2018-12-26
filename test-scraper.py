@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 url = 'https://www.zillow.com/user/Login.htm'
 
-driver = sc.connect()
+driver = webdriver.Firefox()
 
 driver.get(url)
 
