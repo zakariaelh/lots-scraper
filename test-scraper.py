@@ -14,7 +14,7 @@ driver.get(url)
 
 html = driver.page_source
 soup = BeautifulSoup(html, 'lxml')
-pint('We got the first soup')
+print('We got the first soup')
 
 driver.quit()
 
@@ -28,7 +28,7 @@ driver.get(url)
 
 html = driver.page_source
 soup = BeautifulSoup(html, 'lxml')
-pint('We got the second soup')
+print('We got the second soup')
 
 driver.quit()
 
