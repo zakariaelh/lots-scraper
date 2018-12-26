@@ -1,11 +1,20 @@
-import scraper as sc
+from selenium import webdriver
+from bs4 import BeautifulSoup
+
+url = 'https://www.zillow.com/user/Login.htm'
 
 driver = sc.connect()
 
-ex_zip = [24555]
+driver.get(url)
 
-d_houses = sc.get_houses(driver, ex_zip)
+html = driver.page_source
+soup = BeautifulSoup(html, 'lxml')
 
-print(d_houses) 
+#ex_zip = [24555]
+#d_houses = sc.get_houses(driver, ex_zip)
+#print(d_houses) 
+
+print(soup)
+
 
 
