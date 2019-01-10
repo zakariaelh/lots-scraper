@@ -37,7 +37,7 @@ def connect():
     password = driver.find_element_by_id("password")
 
     email = "elhjouji.zakaria@gmail.com"
-    pwd = "Samsung123" 
+    pwd = "zillow123" 
     username.send_keys(email)
     password.send_keys(pwd)
     login_attempt = driver.find_element_by_xpath("//*[@type='submit']")
