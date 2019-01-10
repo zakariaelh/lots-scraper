@@ -1,7 +1,7 @@
 # from pyvirtualdisplay import Display
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import scraper as sc
+# import scraper as sc
 
 # display = Display(visible=0, size=(800, 600))
 # display.start()
