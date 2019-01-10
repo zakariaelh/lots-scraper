@@ -19,19 +19,19 @@ url = 'https://www.zillow.com/user/Login.htm'
 
 # driver.quit()
 
-driver = webdriver.Firefox()
-login_url = "https://www.zillow.com/user/Login.htm"
-#access the login page
-driver.get(login_url)
-username = driver.find_element_by_id("email")
-password = driver.find_element_by_id("password")
+# driver = webdriver.Firefox()
+# login_url = "https://www.zillow.com/user/Login.htm"
+# #access the login page
+# driver.get(login_url)
+# username = driver.find_element_by_id("email")
+# password = driver.find_element_by_id("password")
 
-email = "elhjouji.zakaria@gmail.com"
-pwd = "Samsung123" 
-username.send_keys(email)
-password.send_keys(pwd)
-login_attempt = driver.find_element_by_xpath("//*[@type='submit']")
-login_attempt.submit()
+# email = "elhjouji.zakaria@gmail.com"
+# pwd = "Samsung123" 
+# username.send_keys(email)
+# password.send_keys(pwd)
+# login_attempt = driver.find_element_by_xpath("//*[@type='submit']")
+# login_attempt.submit()
 
 
 ####
@@ -47,11 +47,11 @@ login_attempt.submit()
 
 # driver.quit()
 
-# ex_zip = ['24555']
+ex_zip = ['24555']
 
-# driver = sc.connect()
-# d_houses = sc.get_houses(driver, ex_zip)
-# print(d_houses) 
+driver = sc.connect()
+d_houses = sc.get_houses(driver, ex_zip)
+print(d_houses) 
 # display.stop()
 
 
