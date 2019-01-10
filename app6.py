@@ -6,7 +6,7 @@ import scraper as sc
 from termcolor import colored
 import itertools
 import numpy as np
-import dash_table_experiments as dt
+# import dash_table_experiments as dt
 import os
 from urllib.parse import quote as urlquote
 from flask import Flask, send_from_directory
