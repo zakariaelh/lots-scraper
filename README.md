@@ -5,10 +5,10 @@ Webapp that crawls lots and the average house price around each lot
 In order to install this, we have to follow the steps below. 
 
 1. We need to have python3.6 installed in our computer. To install python 3, please follow the steps below: 
-  - go to this [link](https://www.python.org/downloads/windows/)
-  - Under `Python 3.6.8 - 2018-12-24`, select `Windows x86-64 executable installer`
-  - Download it
-  - Install it. When you open the installation window, make sure to check in the bottom of the window **Add Python 3.6 to PATH**. Then, click **Install Now** and continue by clicking Next. 
+    - go to this [link](https://www.python.org/downloads/windows/)
+    - Under `Python 3.6.8 - 2018-12-24`, select `Windows x86-64 executable installer`
+    - Download it
+    - Install it. When you open the installation window, make sure to check in the bottom of the window **Add Python 3.6 to PATH**. Then, click **Install Now** and continue by clicking Next. 
 
 2. Now, let's open the command line by going to the search bar in our desktop and write 'Command Prompt'. Launch Command Prompt.
 
