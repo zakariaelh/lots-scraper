@@ -12,7 +12,7 @@ pip install virtualenv
 :: create a virtual env in desktop \
 virtualenv venv
 :: activate environment\
-%USERPROFILE%\Desktop\venv\Scripts\activate
+call %USERPROFILE%\Desktop\venv\Scripts\activate
 :: install libraries\
 pip install pandas numpy lxml
 pip install beautifulsoup4
@@ -28,5 +28,8 @@ start firefox-installation.exe
 :: install git \
 start git-installation.exe
 :: clone the director in desktop \
-cd %USERPROFILE%\Desktop
+echo 'cloning the directory ...'
+cd %USERPROFILE%\Downloads
+pause
 git clone https://github.com/zakariaelh/lots-scraper.git
+echo 'installation Done' 
