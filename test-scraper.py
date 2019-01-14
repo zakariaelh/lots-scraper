@@ -51,6 +51,7 @@ ex_zip = ['24555']
 
 driver = sc.connect()
 d_houses = sc.get_houses(driver, ex_zip)
+driver.close()
 print(d_houses) 
 # display.stop()
 
