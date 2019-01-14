@@ -5,7 +5,7 @@ Webapp that crawls lots and the average house price around each lot
 ## Easy Installation:
 
 Download the installation folder, and put in your Desktop. 
-1. Start by installing Python. To do so: right-click on `python-installer` and click on `Run as Administrator`. **Warning: ** Check **Add Python 3.6 to PATH** on the first screen of installation. Then just keep clicking Next.
+1. Start by installing Python. To do so: right-click on `python-installer` and click on `Run as Administrator`. **Warning:** Check **Add Python 3.6 to PATH** on the first screen of installation. Then just keep clicking Next.
         - You might get a pop-up asking to allow permission to make changes, please press Yes. 
 2. Install firefox. Likewise, right on `firefox-installation` and click on `Run as Administrator`.
 3. Install git. Same as above. (Run as administrator)
