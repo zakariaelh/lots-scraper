@@ -2,6 +2,20 @@
 
 Webapp that crawls lots and the average house price around each lot
 
+## Easy Installation:
+
+Download the installation folder, and put in your Desktop. 
+1. Start by installing Python. To do so: right-click on `python-installer` and click on `Run as Administrator`. **Warning: ** Check **Add Python 3.6 to PATH** on the first screen of installation. Then just keep clicking Next.
+        - You might get a pop-up asking to allow permission to make changes, please press Yes. 
+2. Install firefox. Likewise, right on `firefox-installation` and click on `Run as Administrator`.
+3. Install git. Same as above. (Run as administrator)
+4. Set-up the environment where we will run the app. Right click on `py-setup` and click on `Run as Administrator`. 
+5. Now, go to your desktop and you will find a new directory called `lots-scraper`. 
+6. Run first a test by double-cliking on `test-scraper`
+7. To run the app, double-click on `app6`, then go to (http://http://127.0.0.1:8050)
+
+
+## Long Installation
 In order to install this, we have to follow the steps below. 
 
 1. We need to have python3.6 installed in our computer. To install python 3, please follow the steps below: 
