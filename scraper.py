@@ -24,12 +24,16 @@ from selenium import webdriver
 from scipy.spatial.distance import cdist
 from geopy.distance import vincenty
 from termcolor import colored
+from selenium.webdriver.firefox.options import Options
+
 
 
 # In[3]:
 
 def connect():
-    driver = webdriver.Firefox()
+    options = Options()
+    options.headless = True
+    driver = webdriver.Firefox(options = options)
     login_url = "https://www.zillow.com/user/Login.htm"
     #access the login page
     driver.get(login_url)
