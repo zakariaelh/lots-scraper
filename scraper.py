@@ -342,7 +342,10 @@ def clean_price(x):
     takes as input price column and clean prices
     '''
     try:
-        return int(''.join(re.findall(r'\d+', x)))
+        a = re.findall(r"[-+]?\d*\.\d+|\d+", str(x))
+        a = ''.join(a)
+        a = float(a)
+        return a
     except:
         #print(x)
         return None
@@ -352,7 +355,18 @@ def clean_area(x):
     takes as input area column and clean areas
     '''
     try:
-        return int(''.join(re.findall(r'\d+', x)))
+        if 'ac' in str(x):
+            a = re.findall(r"[-+]?\d*\.\d+|\d+", str(x))
+            a = ''.join(a)
+            a = float(a)
+            return int(a * 43560)
+        elif 'sqft' in str(x):
+            a = re.findall(r"[-+]?\d*\.\d+|\d+", str(x))
+            a = ''.join(a)
+            a = float(a)
+            return int(a)
+        else:
+            return None
     except:
         #print(x)
         return None
@@ -371,6 +385,7 @@ def clean_lots(d_lots):
     takes as input d_lots (output of scraper function) and cleans it
     '''
     d_lots['price' ] = d_lots.price.apply(clean_price)
+    print(d_lots.area)
     d_lots['area'] = d_lots.area.apply(clean_area)
     return d_lots
 
@@ -384,6 +399,8 @@ def clean_houses(d_houses):
     d_houses.loc[boo, 'lng'] = d_houses[boo].lng.astype(int) / 1e6
     #price
     d_houses['price'] = d_houses.price.apply(clean_price)
+    # print(d_houses['area'])
+    # d_houses['area'] = d_houses.area.apply(clean_area)
     #pm2
     d_houses['price_sqft'] = d_houses[['price', 'area']].apply(get_psqft, axis = 1)
     return(d_houses)

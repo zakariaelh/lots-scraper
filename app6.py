@@ -21,7 +21,8 @@ cols_l = ['address', 'area', 'lat', 'lng', 'neigh', 'price', 'url']
 cols_h = ['address', 'area', 'baths', 'beds', 'lat', 'lng', 
 			'neigh', 'price', 'price_sqft','url']
 #column fitlered lots
-cols_f = ['address', 'area', 'lat', 'lng', 'neigh', 'price', 'avg_price', 'margin', 'url']
+cols_f = ['address', 'area', 'lat', 'lng', 'neigh', 'price', 
+		'avg_price', 'margin', 'url']
 
 #directory from which we will look up the files to download and also to which we save 
 DOWNLOAD_DIRECTORY = os.getcwd() + "/downloaded_data/"
@@ -131,10 +132,11 @@ app.layout = html.Div([
 				 multi= True,
 				 value = '24555'),
 	#button to trigger connection and scraping 
-	html.Button('Scrape-houses', id='scrape-button-h', className = 'button-primary'),
+	#html.Button('Scrape-houses', id='scrape-button-h', className = 'button-primary'),
 	#div where we output data-houses scraped
 	html.Div(id = 'data-houses', style={'display': 'none'}),
-	html.Button('Scrape-lots', id='scrape-button-l', className = 'button-primary'),
+	#html.Button('Scrape-lots', id='scrape-button-l', className = 'button-primary'),
+	html.Button('Scrape', id='scrape-button', className = 'button-primary'),
 	#div wher ewe output data-lots scraped
 	html.Div(id = 'data-lots', style={'display': 'none'}),
 	html.H3('Lots'),
@@ -159,15 +161,15 @@ app.layout = html.Div([
 	html.H3('Filtered Lots'),
 	html.Div([
 			html.Div([html.Div([html.Form([
-				html.H3('Minimum Margin'),
-				dcc.Input(id = 'min_margin', placeholder = 'Minimum Margin', value = 0.1, 
+				html.H3('Minimum Margin (%)'),
+				dcc.Input(id = 'min_margin', placeholder = 'Minimum Margin', value = 10, 
 					style = {'width': '100%', 'height': '50px'})],
 					style = {'padding': '40px'},
 					className = 'w3-container w3-card-4 w3-light-grey')
 					],
 					style = {'width' : '400px', 'padding' : '20px', 'float': 'left'}),
 			html.Div([html.Form([
-				html.H3('Cost of Construction'),
+				html.H3('Cost of Construction (per sqft)'),
 				dcc.Input(id = 'cost', placeholder = 'Construction Cost', value = 10, 
 					style = {'width': '100%', 'height': '50px'})],
 					style = {'padding': '40px'},
@@ -175,7 +177,7 @@ app.layout = html.Div([
 					],
 				style = {'width' : '400px', 'padding' : '20px', 'float': 'left'}),
 			html.Div([html.Form([
-				html.H3('Radius'),
+				html.H3('Radius (miles)'),
 				dcc.Input(id = 'radius', placeholder = 'Radius', value = 10, 
 					style = {'width': '100%', 'height': '50px'})],
 					style = {'padding': '40px'},
@@ -183,8 +185,16 @@ app.layout = html.Div([
 					],
 				style = {'width' : '400px', 'padding' : '20px', 'float': 'left'}),
 			html.Div([html.Form([
-				html.H3('Maximum Lot Size'),
+				html.H3('Maximum Lot Size (sqft)'),
 				dcc.Input(id = 'max_size', placeholder = 'Max Lot Size', value = None, 
+					style = {'width': '100%', 'height': '50px'})],
+					style = {'padding': '40px'},
+					className = 'w3-container w3-card-4 w3-light-grey')
+					],
+				style = {'width' : '400px', 'padding' : '20px', 'float': 'left'}),
+			html.Div([html.Form([
+				html.H3('Ratio of Livable Area (%)'),
+				dcc.Input(id = 'ratio', placeholder = 'Ratio of Livable area (%)', value = 70, 
 					style = {'width': '100%', 'height': '50px'})],
 					style = {'padding': '40px'},
 					className = 'w3-container w3-card-4 w3-light-grey')
@@ -212,7 +222,7 @@ app.layout = html.Div([
 
 @app.callback(
     dash.dependencies.Output('thead_cols_h', 'style'),
-    [dash.dependencies.Input('scrape-button-h', 'n_clicks')])
+    [dash.dependencies.Input('scrape-button', 'n_clicks')])
 
 def show_head_h(k):
 	'''
@@ -224,7 +234,7 @@ def show_head_h(k):
 
 @app.callback(
     dash.dependencies.Output('thead_cols_l', 'style'),
-    [dash.dependencies.Input('scrape-button-l', 'n_clicks')])
+    [dash.dependencies.Input('scrape-button', 'n_clicks')])
 
 def show_head_l(k):
 	'''
@@ -245,7 +255,7 @@ def show_head_f(k):
 
 @app.callback(
 	dash.dependencies.Output('data-lots', 'children'),
-	[dash.dependencies.Input('scrape-button-l', 'n_clicks')],
+	[dash.dependencies.Input('scrape-button', 'n_clicks')],
 	[dash.dependencies.State('zip-input', 'value')])
 
 def get_data_lots(b, zips):
@@ -258,12 +268,12 @@ def get_data_lots(b, zips):
 	else:
 		if b is not None:
 			print('zipcodes: ', zips)
+			#d_lots = pd.read_csv('lots.csv', index_col = 0)
 			driver = connect()
 			d_lots, l_e = sc.get_lots(driver, zips)
 			print('cleaning lots')
-			#d_lots = pd.read_csv('lots.csv', index_col = 0)
 			d_lots = sc.clean_lots(d_lots)
-			# close connection
+			# # close connection
 			close(driver)
 			d_lots.to_csv(DOWNLOAD_DIRECTORY + 'd_lots.csv')
 			return d_lots.to_json()
@@ -313,7 +323,7 @@ def show_data_lots(data_lots,
 
 @app.callback(
 	dash.dependencies.Output('data-houses', 'children'),
-	[dash.dependencies.Input('scrape-button-h', 'n_clicks')],
+	[dash.dependencies.Input('scrape-button', 'n_clicks')],
 	[dash.dependencies.State('zip-input', 'value')])
 
 def get_data_houses(b, zips):
@@ -326,12 +336,12 @@ def get_data_houses(b, zips):
 		if b is not None:
 			print('zipcodes: ', zips)
 			# print('n_clicks: ', b)
+			#d_houses = pd.read_csv('houses.csv', index_col = 0)
 			# #estibalish connection
 			driver = connect()
 			d_houses, l_e = sc.get_houses(driver, zips)
-			#d_houses = pd.read_csv('houses.csv', index_col = 0)
 			d_houses = sc.clean_houses(d_houses)
-			# #close connection
+			# # #close connection
 			close(driver)
 			d_houses.to_csv(DOWNLOAD_DIRECTORY + 'd_houses.csv')
 			return d_houses.to_json()
@@ -398,7 +408,8 @@ def show_data_houses(data_houses,
 	[dash.dependencies.State('radius', 'value'),
 	dash.dependencies.State('min_margin', 'value'),
 	dash.dependencies.State('cost', 'value'),
-	dash.dependencies.State('max_size', 'value')])
+	dash.dependencies.State('max_size', 'value'),
+	dash.dependencies.State('ratio', 'value')])
 
 def filter_data(d_houses, d_lots, b, 
 	        k_a_t, k_a,
@@ -410,7 +421,7 @@ def filter_data(d_houses, d_lots, b,
 	        k_av_t, k_av,
 	        k_m_t, k_m,
 	        k_u_t, k_u,
-	        radius, min_margin, cost, max_size):
+	        radius, min_margin, cost, max_size, ratio):
 	'''
 	This function takes as input the filter requirements and apply them to the lots table 
 	'''
@@ -436,11 +447,15 @@ def filter_data(d_houses, d_lots, b,
 			radius = float(radius)
 			l_avg = list(map(lambda x: sc.get_avg(x, l_h, radius, d_houses), range(d_lots.shape[0])))
 			d_lots['avg_price'] = l_avg
+
 		
 		if (cost is not None) & (cost != ''):
 			cost = float(cost)
-			d_lots['margin'] = (d_lots.avg_price * d_lots.area) / (d_lots.area * cost) - 1
-		
+			ratio = float(ratio)
+			d_lots['margin'] = (d_lots.avg_price / (
+				(d_lots.price + cost * d_lots.area * (ratio/100)) / 
+				(d_lots.area * (ratio/100))) - 1)*100
+	
 		#filter 
 		if (min_margin is not None) & (min_margin != ''):
 			min_margin = float(min_margin)
