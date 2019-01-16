@@ -39,3 +39,360 @@ JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1
 1545764006376	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=935158563.1545764007, line 104: unreachable code after return statement
 1545764014535	Marionette	INFO	Stopped listening on port 52671
+1546752772620	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.BWdXrJzXPEvQ"
+1546752776579	Marionette	INFO	Listening on port 55168
+1546752776688	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 2688, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 2687, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1546752924808	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.0eph7v7UKbd8"
+1546752927077	Marionette	INFO	Listening on port 56108
+1546752927145	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1144893639.1546752929, line 104: unreachable code after return statement
+1546752941902	Marionette	INFO	Stopped listening on port 56108
+1547429295771	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.l06gyPmcEP3Z"
+1547429300714	Marionette	INFO	Listening on port 60913
+1547429300799	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=35491960.1547429302, line 91: unreachable code after return statement
+1547429310163	Marionette	INFO	Stopped listening on port 60913
+1547429423333	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.Kg1S1V3wrVm0"
+*** You are running in headless mode.
+1547429425030	Marionette	INFO	Listening on port 61312
+1547429425069	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=2073835526.1547429426, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547429433300	Marionette	INFO	Stopped listening on port 61312
+JavaScript warning: https://s.yimg.com/rq/iv/inside.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/rq/iv/inside.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/rq/iv/inside.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://s.yimg.com/rq/iv/inside.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547429459557	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.SVTZ0lhVAWQP"
+*** You are running in headless mode.
+1547429461189	Marionette	INFO	Listening on port 61592
+1547429461201	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=562379734.1547429463, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547429474961	Marionette	INFO	Stopped listening on port 61592
+1547530075425	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.cMF1GD9OJ1TL"
+*** You are running in headless mode.
+1547530080435	Marionette	INFO	Listening on port 49539
+1547530080525	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=544789842.1547530082, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547530090271	Marionette	INFO	Stopped listening on port 49539
+1547530158485	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.Ck55qJ2tkwF3"
+*** You are running in headless mode.
+1547530166431	Marionette	INFO	Listening on port 49870
+1547530166523	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=376310527.1547530168, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547530180695	Marionette	INFO	Stopped listening on port 49870
+1547533165970	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.DtwXkMt7XGR7"
+*** You are running in headless mode.
+1547533171226	Marionette	INFO	Listening on port 51117
+1547533171277	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=235175887.1547533173, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=235175887.1547533173, line 91: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=235175887.1547533173, line 91: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=235175887.1547533173, line 91: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1547533216820	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.HJZygyP8P2Pr"
+*** You are running in headless mode.
+1547533218600	Marionette	INFO	Listening on port 51433
+1547533218653	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1386683846.1547533220, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547533226893	Marionette	INFO	Stopped listening on port 51433
+1547533228445	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.9PQahd3Ncq2y"
+*** You are running in headless mode.
+1547533230065	Marionette	INFO	Listening on port 51629
+1547533230078	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=360378576.1547533231, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547533235844&ver1=2.2.2&qid=838363f5039363f5730343&rnd=a3vielz87ubb&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547533235844&ver1=2.2.2&qid=838363f5039363f5730343&rnd=a3vielz87ubb&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547533235844&ver1=2.2.2&qid=838363f5039363f5730343&rnd=a3vielz87ubb&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547533235844&ver1=2.2.2&qid=838363f5039363f5730343&rnd=a3vielz87ubb&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547533243317	Marionette	INFO	Stopped listening on port 51629
+1547533705745	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.YIyJs62syDuU"
+*** You are running in headless mode.
+1547533708576	Marionette	INFO	Listening on port 52166
+1547533708605	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=312865945.1547533710, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547533716746	Marionette	INFO	Stopped listening on port 52166
+1547533718356	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.y596sok6uXma"
+*** You are running in headless mode.
+1547533720518	Marionette	INFO	Listening on port 52397
+1547533720590	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1515405140.1547533722, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547533734241	Marionette	INFO	Stopped listening on port 52397
+1547533873751	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.uyZk7d5Dsehp"
+*** You are running in headless mode.
+1547533876821	Marionette	INFO	Listening on port 52622
+1547533876905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1208690504.1547533878, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547533885223	Marionette	INFO	Stopped listening on port 52622
+1547533886797	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.xUVC11ovDeAC"
+*** You are running in headless mode.
+1547533888760	Marionette	INFO	Listening on port 52851
+1547533888840	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1080169038.1547533890, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547533902026	Marionette	INFO	Stopped listening on port 52851
+1547534297706	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.h4OLLjVpoyTR"
+*** You are running in headless mode.
+1547534303465	Marionette	INFO	Listening on port 53152
+1547534303495	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1699343607.1547534305, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547534312262	Marionette	INFO	Stopped listening on port 53152
+1547534313843	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.GqPEWyW2r2vi"
+*** You are running in headless mode.
+1547534315717	Marionette	INFO	Listening on port 53385
+1547534315791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=826735878.1547534317, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547534329039	Marionette	INFO	Stopped listening on port 53385
+1547534492776	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.pulyNAz5A7OE"
+*** You are running in headless mode.
+1547534512308	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.9Xl8RdC8udlQ"
+*** You are running in headless mode.
+1547534514876	Marionette	INFO	Listening on port 53684
+1547534514965	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1479734537.1547534516, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547534525903	Marionette	INFO	Stopped listening on port 53684
+1547534527467	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.3Hi7hedEVSJ2"
+*** You are running in headless mode.
+1547534529200	Marionette	INFO	Listening on port 53849
+1547534529207	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=2129906335.1547534530, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547534542662	Marionette	INFO	Stopped listening on port 53849
+1547534689050	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.khPk1U6CWjn0"
+*** You are running in headless mode.
+1547534690738	Marionette	INFO	Listening on port 54363
+1547534690788	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=548845334.1547534692, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547534697122&ver1=2.2.2&qid=838363f5039363f5730343&rnd=nuo1mtidbbrk&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547534697122&ver1=2.2.2&qid=838363f5039363f5730343&rnd=nuo1mtidbbrk&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547534697122&ver1=2.2.2&qid=838363f5039363f5730343&rnd=nuo1mtidbbrk&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547534697122&ver1=2.2.2&qid=838363f5039363f5730343&rnd=nuo1mtidbbrk&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547534698843	Marionette	INFO	Stopped listening on port 54363
+1547534700407	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.zC1XXYmZrmem"
+*** You are running in headless mode.
+1547534702064	Marionette	INFO	Listening on port 54599
+1547534702145	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1694329662.1547534703, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547534708579&ver1=2.2.2&qid=838363f5039363f5730343&rnd=b4noojvwumzt&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547534708579&ver1=2.2.2&qid=838363f5039363f5730343&rnd=b4noojvwumzt&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547534708579&ver1=2.2.2&qid=838363f5039363f5730343&rnd=b4noojvwumzt&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1547534708579&ver1=2.2.2&qid=838363f5039363f5730343&rnd=b4noojvwumzt&cid=407 line 1 > eval, line 246: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547534715500	Marionette	INFO	Stopped listening on port 54599
+1547534825739	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.qdOcV3k8AdFB"
+*** You are running in headless mode.
+1547534827371	Marionette	INFO	Listening on port 54879
+1547534827465	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1382484644.1547534829, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547534835810	Marionette	INFO	Stopped listening on port 54879
+1547534837434	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.ZqYZC7vhMg98"
+*** You are running in headless mode.
+1547534839107	Marionette	INFO	Listening on port 55102
+1547534839155	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=771552401.1547534840, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547534852701	Marionette	INFO	Stopped listening on port 55102
+1547535208209	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.rM7BRmD0YuYt"
+*** You are running in headless mode.
+1547535211318	Marionette	INFO	Listening on port 56158
+1547535211415	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1660886953.1547535213, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547535220418	Marionette	INFO	Stopped listening on port 56158
+1547535222013	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.jFQoQODS7hyJ"
+*** You are running in headless mode.
+1547535223966	Marionette	INFO	Listening on port 56389
+1547535224066	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=758384519.1547535225, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547535237358	Marionette	INFO	Stopped listening on port 56389
+1547535330647	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.pWUwiUWdnO5t"
+*** You are running in headless mode.
+1547535333770	Marionette	INFO	Listening on port 56912
+1547535333864	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1356870708.1547535335, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547535342723	Marionette	INFO	Stopped listening on port 56912
+1547535344405	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.NSU510Mhxh8U"
+*** You are running in headless mode.
+1547535346379	Marionette	INFO	Listening on port 57163
+1547535346453	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1054409101.1547535348, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547535359870	Marionette	INFO	Stopped listening on port 57163
+1547617420854	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.apDzkoyObfsg"
+*** You are running in headless mode.
+1547617423946	Marionette	INFO	Listening on port 58060
+1547617424060	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=1377222724.1547617425, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547617434141	Marionette	INFO	Stopped listening on port 58060
+1547617435720	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jj/mmhh8fkn0rv5dwb_n2knnny80000gn/T/rust_mozprofile.gZXxz10OdT7i"
+*** You are running in headless mode.
+1547617437543	Marionette	INFO	Listening on port 58274
+1547617437562	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WQL55SH&cid=768885472.1547617439, line 91: unreachable code after return statement
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.zillow.com/HYx10rg3/init.js, line 3: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1547617451056	Marionette	INFO	Stopped listening on port 58274
