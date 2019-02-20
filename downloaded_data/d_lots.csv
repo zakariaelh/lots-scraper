@@ -1,18 +1,15 @@
-,address,area,lat,lng,neigh,price,url
-0,"79 Ac. Sallings Mountain Rd, Glasgow, VA",798.0,37.655001,-79.481337,24555,115000,https://zillow.com/homedetails/79-Ac-Sallings-Mountain-Rd-Glasgow-VA-24555/2092406979_zpid/
-1,"Sallings Mountain Rd, Glasgow, VA",790.0,37.6592,-79.4652,24555,115000,https://zillow.com/homedetails/Sallings-Mountain-Rd-Glasgow-VA-24555/2086456546_zpid/
-2,"20 Ac. River Rd, Glasgow, VA",200.0,37.659,-79.4654,24555,165000,https://zillow.com/homedetails/20-Ac-River-Rd-Glasgow-VA-24555/2088447614_zpid/
-3,"97 Ac. Hops Hill Rd, Glasgow, VA",978.0,37.687144,-79.452773,24555,495000,https://zillow.com/homedetails/97-Ac-Hops-Hill-Rd-Glasgow-VA-24555/2095020666_zpid/
-4,"Tbd Sandstone, Glasgow, VA",400.0,37.659,-79.4654,24555,77500,https://zillow.com/homedetails/Tbd-Sandstone-Glasgow-VA-24555/2086738734_zpid/
-5,"8 Clan Alpine Way, Glasgow, VA",,37.674416,-79.476843,24555,15000,https://zillow.com/homedetails/8-Clan-Alpine-Way-Glasgow-VA-24555/2087161377_zpid/
-6,"35 Sandstone Ln, Glasgow, VA",200.0,37.659,-79.4654,24555,39900,https://zillow.com/homedetails/35-Sandstone-Ln-Glasgow-VA-24555/2086739489_zpid/
-7,"41 Ac. Hops Hill Rd, Glasgow, VA",415.0,37.700202,-79.469798,24555,250000,https://zillow.com/homedetails/41-Ac-Hops-Hill-Rd-Glasgow-VA-24555/2087473486_zpid/
-8,"River Rd, Glasgow, VA",200.0,37.659,-79.4654,24555,165000,https://zillow.com/homedetails/River-Rd-Glasgow-VA-24555/2088424500_zpid/
-9,"Tbd Hops Hill Rd, Glasgow, VA",978.0,37.65991,-79.46761,24555,495000,https://zillow.com/homedetails/Tbd-Hops-Hill-Rd-Glasgow-VA-24555/2104701368_zpid/
-10,"Hops Hill Rd, Glasgow, VA",415.0,37.6586,-79.4657,24555,250000,https://zillow.com/homedetails/Hops-Hill-Rd-Glasgow-VA-24555/2087303837_zpid/
-11,"Tbd Fox Hunt Rd, Glasgow, VA",204.0,37.663,-79.47092,24555,229900,https://zillow.com/homedetails/Tbd-Fox-Hunt-Rd-Glasgow-VA-24555/2106806431_zpid/
-12,"605 Shawnee St, Glasgow, VA",34.0,37.639646,-79.451269,24555,18800,https://zillow.com/homedetails/605-Shawnee-St-Glasgow-VA-24555/229681101_zpid/
-13,"& 5 Plateau Ln LOT 4, Glasgow, VA",98.0,37.659,-79.4654,24555,46000,https://zillow.com/homedetails/-5-Plateau-Ln-LOT-4-Glasgow-VA-24555/2113233367_zpid/
-14,"Tbd Catawba St, Glasgow, VA",488.0,37.659,-79.4654,24555,23000,https://zillow.com/homedetails/Tbd-Catawba-St-Glasgow-VA-24555/2087923412_zpid/
-15,"Tbd Plateau Dr, Glasgow, VA",98.0,37.659,-79.4654,24555,46000,https://zillow.com/homedetails/Tbd-Plateau-Dr-Glasgow-VA-24555/2087222231_zpid/
->>>>>>> 5f674ba2231bd07c919650e2dd8e4163c3fd2bff
+address,area,lat,lng,neigh,price,url
+"Mill Brook Rd, Margaretville, NY",87120,42.102268,-74.734054,12455,18000.0,https://zillow.com/homedetails/Mill-Brook-Rd-Margaretville-NY-12455/215788161_zpid/
+"457 Swart Rd, Margaretville, NY",1224036,42.151385,-74.678458,12455,150000.0,https://zillow.com/homedetails/457-Swart-Rd-Margaretville-NY-12455/30069843_zpid/
+"0 W Hubbell Hl, Margaretville, NY",248292,42.171052,-74.617562,12455,22500.0,https://zillow.com/homedetails/0-W-Hubbell-Hl-Margaretville-NY-12455/2089725735_zpid/
+"Margaretville Mountain Rd, Margaretville, NY",875556,42.1633,-74.6605,12455,79000.0,https://zillow.com/homedetails/Margaretville-Mountain-Rd-Margaretville-NY-12455/2092839919_zpid/
+"Quail Ridge Rd, Margaretville, NY",289674,42.209001,-74.589132,12455,99900.0,https://zillow.com/homedetails/Quail-Ridge-Rd-Margaretville-NY-12455/215785810_zpid/
+"W Hubbell Hill Rd, Margaretville, NY",248292,42.1633,-74.6605,12455,22500.0,https://zillow.com/homedetails/W-Hubbell-Hill-Rd-Margaretville-NY-12455/2088822597_zpid/
+"0 Mill Brook Rd, Margaretville, NY",87120,42.1629,-74.6599,12455,18000.0,https://zillow.com/homedetails/0-Mill-Brook-Rd-Margaretville-NY-12455/2085979398_zpid/
+"0 Margaretville Mountain Rd, Margaretville, NY",710028,42.154333,-74.654491,12455,79000.0,https://zillow.com/homedetails/0-Margaretville-Mountain-Rd-Margaretville-NY-12455/2094108582_zpid/
+"1810 Dry Brook Rd, Margaretville, NY",9056124,42.1633,-74.6605,12455,699000.0,https://zillow.com/homedetails/1810-Dry-Brook-Rd-Margaretville-NY-12455/2104635362_zpid/
+"Meadow Brook Dr, Margaretville, NY",1089000,42.193242,-74.614503,12455,150000.0,https://zillow.com/homedetails/Meadow-Brook-Dr-Margaretville-NY-12455/215786356_zpid/
+"Tbd Hidden Waters Dr, Margaretville, NY",95832,42.1628,-74.66,12455,34900.0,https://zillow.com/homedetails/Tbd-Hidden-Waters-Dr-Margaretville-NY-12455/2089149066_zpid/
+"73 Quail Ridge Rd, Margaretville, NY",241322,42.207349,-74.584171,12455,52900.0,https://zillow.com/homedetails/73-Quail-Ridge-Rd-Margaretville-NY-12455/98080491_zpid/
+"Mountain Vw, Middletown, NY",253083,42.1628,-74.66,12455,33900.0,https://zillow.com/homedetails/Mountain-Vw-Middletown-NY-12455/2089147744_zpid/
+"Herrick Rd, Middletown, NY",87120,42.1636,-74.6602,12455,39000.0,https://zillow.com/homedetails/Herrick-Rd-Middletown-NY-12455/2088822027_zpid/

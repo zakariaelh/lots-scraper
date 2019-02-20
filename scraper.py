@@ -27,16 +27,17 @@ from termcolor import colored
 from selenium.webdriver.firefox.options import Options
 
 
-
 # In[3]:
 
-def connect():
+def connect(headless = True):
     options = Options()
-    options.headless = True
+    options.headless = headless #in case of debug, headless must be false 
     driver = webdriver.Firefox(options = options)
+    # driver = webdriver.Firefox()
     login_url = "https://www.zillow.com/user/Login.htm"
     #access the login page
     driver.get(login_url)
+    # time.sleep(50)
     username = driver.find_element_by_id("email")
     password = driver.find_element_by_id("password")
 
@@ -94,7 +95,7 @@ def get_info(ex):
         beds = [i for i in bba if 'bd' in i][0]
         beds = int([i for i in beds.split() if i.isdigit()][0])
     except Exception as e:
-        print(colored('problem with beds in with', 'red'), ' ', url)
+        print(colored('problem with beds in ', 'red'), ' ', url)
         print(e)
         beds = 'NA'
     #baths
@@ -103,7 +104,7 @@ def get_info(ex):
         #baths = int([i for i in baths.split() if i.isdigit()][0])
         baths = float(baths[:baths.find('ba')])
     except Exception as e:
-        print('problem with baths in ', url)
+        print(colored('problem with baths in ', 'red'), ' ', url)
         print(e)
         baths = 'NA'
     #area
@@ -112,7 +113,7 @@ def get_info(ex):
         area = area.replace(',', '')
         area = int([i for i in area.split() if i.isdigit()][0])
     except Exception as e:
-        print('problem with area in ', url)
+        print(colored('problem with area in ', 'red'), ' ', url)
         print(e)
         area = 'NA'
     #price
@@ -120,14 +121,14 @@ def get_info(ex):
         price = ex.find("span", class_ = "zsg-photo-card-price").get_text()
         price = price.replace(',', '')
     except Exception as e:
-        print('problem with price in ', url)
+        print(colored('problem with price in ', 'red'), ' ', url)
         print(e)     
         price = 'NA'
     #address
     try:
         address = ex.find("span", class_ = "zsg-photo-card-address").get_text()
     except Exception as e:
-        print('No address in ', url)
+        print(colored('no address in ', 'red'), ' ', url)
         print(e)
         address = ' NA'
     #log info
@@ -139,6 +140,7 @@ def get_info(ex):
     d_info['area'] = area
     d_info['price'] = price
     d_info['address'] = address
+    print(colored('DONE: ', 'green'), ' ', url)
     return(d_info)
 
 
@@ -445,6 +447,14 @@ def get_avg(i, l_h, max_dist, d_houses):
     l_ = l[pd.notnull(l)]
     avg_price = np.mean(l_)
     return avg_price
+
+def get_comp_links(i, l_h, max_dist, d_houses):
+    '''
+    get links of comparable houses (used to calculate average)
+    '''
+    l = d_houses[l_h[i][0] < max_dist].url
+    l_links = list(l[pd.notnull(l)])
+    return l_links
 
 #TEST
 

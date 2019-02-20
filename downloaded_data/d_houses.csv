@@ -1,22 +1,51 @@
-,address,area,baths,beds,lat,lng,neigh,price,url,price_sqft
-0,"1575 Lone Jack Rd, Glasgow, VA",1539,2.0,3,37.647286,-79.446512,24555,149000.0,https://zillow.com/homedetails/1575-Lone-Jack-Rd-Glasgow-VA-24555/108039532_zpid/,96.81611435997401
-1,"86 Amber Woods Dr, Glasgow, VA",1680,2.0,3,37.647244,-79.505771,24555,157000.0,https://zillow.com/homedetails/86-Amber-Woods-Dr-Glasgow-VA-24555/108039324_zpid/,93.45238095238095
-2,"911 Fitzlee St, Glasgow, VA",1163,1.0,3,37.631288,-79.450812,24555,61.0,https://zillow.com/homedetails/911-Fitzlee-St-Glasgow-VA-24555/108039804_zpid/,0.052450558899398106
-3,"612 Anderson St, Glasgow, VA",2300,2.0,4,37.635851,-79.447236,24555,140000.0,https://zillow.com/homedetails/612-Anderson-St-Glasgow-VA-24555/229680993_zpid/,60.869565217391305
-4,"1510 6th St, Glasgow, VA",1296,2.0,3,37.639617,-79.450551,24555,54900.0,https://zillow.com/homedetails/1510-6th-St-Glasgow-VA-24555/121491591_zpid/,42.361111111111114
-5,"2492 S Lee Hwy, Glasgow, VA",3952,3.0,5,37.718029,-79.471469,24555,349500.0,https://zillow.com/homedetails/2492-S-Lee-Hwy-Glasgow-VA-24555/108045293_zpid/,88.43623481781377
-6,"3097 S Lee Hwy, Glasgow, VA",2748,2.0,3,37.702043,-79.469416,24555,425000.0,https://zillow.com/homedetails/3097-S-Lee-Hwy-Glasgow-VA-24555/108046032_zpid/,154.6579330422125
-7,"568 Hops Hill Rd, Glasgow, VA",2508,2.5,3,37.691973,-79.459039,24555,865000.0,https://zillow.com/homedetails/568-Hops-Hill-Rd-Glasgow-VA-24555/229689810_zpid/,344.896331738437
-8,"612 Gordon St, Glasgow, VA",735,1.0,2,37.634504,-79.44559,24555,49980.0,https://zillow.com/homedetails/612-Gordon-St-Glasgow-VA-24555/229681038_zpid/,68.0
-9,"672 Fox Hunt Rd, Glasgow, VA",2571,2.0,3,37.698752,-79.497758,24555,629000.0,https://zillow.com/homedetails/672-Fox-Hunt-Rd-Glasgow-VA-24555/108046007_zpid/,244.65188642551536
-10,"30 Sandstone Ln, Glasgow, VA",1973,2.0,3,37.725286,-79.464813,24555,389000.0,https://zillow.com/homedetails/30-Sandstone-Ln-Glasgow-VA-24555/108045304_zpid/,197.1616827166751
-11,"4591 Forge Rd, Glasgow, VA",2340,2.0,4,37.6524,-79.489611,24555,214900.0,https://zillow.com/homedetails/4591-Forge-Rd-Glasgow-VA-24555/108039451_zpid/,91.83760683760684
-12,"151 Journeys End Ln, Glasgow, VA",2346,2.0,3,37.678085,-79.488496,24555,795000.0,https://zillow.com/homedetails/151-Journeys-End-Ln-Glasgow-VA-24555/2093112307_zpid/,338.87468030690536
-13,"193 Clarktown Ln, Glasgow, VA",1188,2.0,3,37.628233,-79.491424,24555,94500.0,https://zillow.com/homedetails/193-Clarktown-Ln-Glasgow-VA-24555/246989082_zpid/,79.54545454545455
-14,"430 Shawnee St, Glasgow, VA",1152,2.0,2,37.642449,-79.45002,24555,152500.0,https://zillow.com/homedetails/430-Shawnee-St-Glasgow-VA-24555/108039853_zpid/,132.37847222222223
-15,"713 Anderson St, Glasgow, VA",1128,1.0,3,37.634177,-79.448388,24555,95000.0,https://zillow.com/homedetails/713-Anderson-St-Glasgow-VA-24555/108039784_zpid/,84.21985815602837
->>>>>>> 5f674ba2231bd07c919650e2dd8e4163c3fd2bff
-16,"2506 S Lee Hwy, Glasgow, VA",3464,4.0,5,37.716916,-79.472233,24555,325000.0,https://zillow.com/homedetails/2506-S-Lee-Hwy-Glasgow-VA-24555/2143618761_zpid/,93.82217090069284
-17,"909 Mcculloch St, Glasgow, VA",932,1.0,2,37.63315,-79.451519,24555,78000.0,https://zillow.com/homedetails/909-Mcculloch-St-Glasgow-VA-24555/108039769_zpid/,83.69098712446352
-18,"309 Shawnee St, Glasgow, VA",1086,1.0,3,37.643687,-79.446546,24555,,https://zillow.com/homedetails/309-Shawnee-St-Glasgow-VA-24555/108039868_zpid/,
-19,Sign in for details,1163,1.0,3,37.63121,-79.45254,24555,,https://zillow.com/homedetail/AuthRequired.htm?r=pfc&zpid=251302421,
+address,area,baths,beds,lat,lng,neigh,price,url,price_sqft
+"414 Halcottsville Rd, Margaretville, NY",1853,2.0,3,42.208011,-74.600045,12455,169000.0,https://zillow.com/homedetails/414-Halcottsville-Rd-Margaretville-NY-12455/30068785_zpid/,91.20345385860766
+"340 Yaramenko Rd, Margaretville, NY",1225,2.0,2,42.121899,-74.66481,12455,59000.0,https://zillow.com/homedetails/340-Yaramenko-Rd-Margaretville-NY-12455/30070299_zpid/,48.16326530612245
+"169 Fox Ridge Rd, Margaretville, NY",2184,2.0,3,42.170407,-74.665163,12455,350000.0,https://zillow.com/homedetails/169-Fox-Ridge-Rd-Margaretville-NY-12455/30069389_zpid/,160.25641025641025
+"2096 John Tuttle Rd, Margaretville, NY",1196,2.0,4,42.235286,-74.709371,12455,185000.0,https://zillow.com/homedetails/2096-John-Tuttle-Rd-Margaretville-NY-12455/2088460183_zpid/,154.68227424749165
+"1397 Denver Vega Rd # 1, Margretville, NY",2400,2.0,4,42.191918,-74.582448,12455,285000.0,https://zillow.com/homedetails/1397-Denver-Vega-Rd-1-Margretville-NY-12455/2096148519_zpid/,118.75
+"1810 Dry Brook Rd, Middletown, NY",978,1.0,3,42.144151,-74.612431,12455,125000.0,https://zillow.com/homedetails/1810-Dry-Brook-Rd-Middletown-NY-12455/2096524117_zpid/,127.8118609406953
+"1060 Main St, Margaretville, NY",2388,NA,NA,42.150024,-74.643462,12455,229000.0,https://zillow.com/homedetails/1060-Main-St-Margaretville-NY-12455/30068278_zpid/,95.89614740368509
+"2056 County Highway 36, Margaretville, NY",2328,2.0,5,42.200128,-74.575997,12455,399000.0,https://zillow.com/homedetails/2056-County-Highway-36-Margaretville-NY-12455/30068887_zpid/,171.39175257731958
+"1648 Ben Meeker Rd, Margaretville, NY",1242,2.0,3,42.133008,-74.721609,12455,365000.0,https://zillow.com/homedetails/1648-Ben-Meeker-Rd-Margaretville-NY-12455/30070218_zpid/,293.8808373590982
+"1266 County Highway 3, Margaretville, NY",2260,3.0,3,42.124821,-74.677932,12455,385000.0,https://zillow.com/homedetails/1266-County-Highway-3-Margaretville-NY-12455/30070259_zpid/,170.35398230088495
+"126 Swart St, Margaretville, NY",1992,3.0,4,42.148028,-74.651099,12455,179000.0,https://zillow.com/homedetails/126-Swart-St-Margaretville-NY-12455/2086469195_zpid/,89.85943775100401
+"1136 Fiddlers Elbow Rd, Margaretville, NY",2218,3.0,3,42.198105,-74.668056,12455,389000.0,https://zillow.com/homedetails/1136-Fiddlers-Elbow-Rd-Margaretville-NY-12455/30069016_zpid/,175.38322813345357
+"144 Huckleberry Hill Rd, Margaretville, NY",3030,3.0,5,42.122935,-74.653431,12455,795000.0,https://zillow.com/homedetails/144-Huckleberry-Hill-Rd-Margaretville-NY-12455/30070302_zpid/,262.3762376237624
+"545 Mcmurray Road Rds, Margaretville, NY",2156,3.5,3,42.137993,-74.693269,12455,599000.0,https://zillow.com/homedetails/545-Mcmurray-Road-Rds-Margaretville-NY-12455/2089070396_zpid/,277.82931354359926
+"2 Quail Ridge Rd, Margaretville, NY",1950,3.5,3,42.207881,-74.589254,12455,375000.0,https://zillow.com/homedetails/2-Quail-Ridge-Rd-Margaretville-NY-12455/66475347_zpid/,192.30769230769232
+"798 Main St, Margaretville, NY",7295,5.0,7,42.14855,-74.647978,12455,425000.0,https://zillow.com/homedetails/798-Main-St-Margaretville-NY-12455/215785222_zpid/,58.25908156271419
+"644 Fiddlers Elbow Rd, Margaretville, NY",2356,2.0,3,42.189976,-74.664451,12455,345000.0,https://zillow.com/homedetails/644-Fiddlers-Elbow-Rd-Margaretville-NY-12455/30069012_zpid/,146.4346349745331
+"851 Main St, Margaretville, NY",2306,4.0,4,42.149287,-74.647432,12455,295000.0,https://zillow.com/homedetails/851-Main-St-Margaretville-NY-12455/215785196_zpid/,127.92714657415438
+"128 Academy St, Margaretville, NY",3158,3.0,6,42.147533,-74.653503,12455,345000.0,https://zillow.com/homedetails/128-Academy-St-Margaretville-NY-12455/30068201_zpid/,109.24635845471818
+"2470 County Hwy 37, Margaretville, NY",1872,3.0,4,42.17474,-74.666418,12455,335000.0,https://zillow.com/homedetails/2470-County-Hwy-37-Margaretville-NY-12455/2089040206_zpid/,178.95299145299145
+"420 Old Winter Hollow Rd, Margaretville, NY",780,1.0,2,42.23783,-74.69501,12455,48500.0,https://zillow.com/homedetails/420-Old-Winter-Hollow-Rd-Margaretville-NY-12455/30068377_zpid/,62.17948717948718
+"685 Davis Rd, Margaretville, NY",2700,3.5,4,42.192898,-74.687909,12455,2500000.0,https://zillow.com/homedetails/685-Davis-Rd-Margaretville-NY-12455/30068576_zpid/,925.925925925926
+"1374 County Highway 3, Margaretville, NY",2996,4.0,3,42.125542,-74.67544,12455,550000.0,https://zillow.com/homedetails/1374-County-Highway-3-Margaretville-NY-12455/30070261_zpid/,183.5781041388518
+"44127 State Hwy # 28, Middletown, NY",4500,5.0,6,42.1636,-74.6602,12455,385000.0,https://zillow.com/homedetails/44127-State-Hwy-28-Middletown-NY-12455/2087546343_zpid/,85.55555555555556
+"1397 County Highway 36, Middletown, NY",1785,2.0,3,42.1633,-74.6605,12455,283500.0,https://zillow.com/homedetails/1397-County-Highway-36-Middletown-NY-12455/2087903528_zpid/,158.8235294117647
+"414 Halcottsville Rd, Margaretville, NY",1853,2.0,3,42.208011,-74.600045,12455,169000.0,https://zillow.com/homedetails/414-Halcottsville-Rd-Margaretville-NY-12455/30068785_zpid/,91.20345385860766
+"340 Yaramenko Rd, Margaretville, NY",1225,2.0,2,42.121899,-74.66481,12455,59000.0,https://zillow.com/homedetails/340-Yaramenko-Rd-Margaretville-NY-12455/30070299_zpid/,48.16326530612245
+"169 Fox Ridge Rd, Margaretville, NY",2184,2.0,3,42.170407,-74.665163,12455,350000.0,https://zillow.com/homedetails/169-Fox-Ridge-Rd-Margaretville-NY-12455/30069389_zpid/,160.25641025641025
+"2096 John Tuttle Rd, Margaretville, NY",1196,2.0,4,42.235286,-74.709371,12455,185000.0,https://zillow.com/homedetails/2096-John-Tuttle-Rd-Margaretville-NY-12455/2088460183_zpid/,154.68227424749165
+"1397 Denver Vega Rd # 1, Margretville, NY",2400,2.0,4,42.191918,-74.582448,12455,285000.0,https://zillow.com/homedetails/1397-Denver-Vega-Rd-1-Margretville-NY-12455/2096148519_zpid/,118.75
+"1810 Dry Brook Rd, Middletown, NY",978,1.0,3,42.144151,-74.612431,12455,125000.0,https://zillow.com/homedetails/1810-Dry-Brook-Rd-Middletown-NY-12455/2096524117_zpid/,127.8118609406953
+"1060 Main St, Margaretville, NY",2388,NA,NA,42.150024,-74.643462,12455,229000.0,https://zillow.com/homedetails/1060-Main-St-Margaretville-NY-12455/30068278_zpid/,95.89614740368509
+"2056 County Highway 36, Margaretville, NY",2328,2.0,5,42.200128,-74.575997,12455,399000.0,https://zillow.com/homedetails/2056-County-Highway-36-Margaretville-NY-12455/30068887_zpid/,171.39175257731958
+"1648 Ben Meeker Rd, Margaretville, NY",1242,2.0,3,42.133008,-74.721609,12455,365000.0,https://zillow.com/homedetails/1648-Ben-Meeker-Rd-Margaretville-NY-12455/30070218_zpid/,293.8808373590982
+"1266 County Highway 3, Margaretville, NY",2260,3.0,3,42.124821,-74.677932,12455,385000.0,https://zillow.com/homedetails/1266-County-Highway-3-Margaretville-NY-12455/30070259_zpid/,170.35398230088495
+"126 Swart St, Margaretville, NY",1992,3.0,4,42.148028,-74.651099,12455,179000.0,https://zillow.com/homedetails/126-Swart-St-Margaretville-NY-12455/2086469195_zpid/,89.85943775100401
+"1136 Fiddlers Elbow Rd, Margaretville, NY",2218,3.0,3,42.198105,-74.668056,12455,389000.0,https://zillow.com/homedetails/1136-Fiddlers-Elbow-Rd-Margaretville-NY-12455/30069016_zpid/,175.38322813345357
+"144 Huckleberry Hill Rd, Margaretville, NY",3030,3.0,5,42.122935,-74.653431,12455,795000.0,https://zillow.com/homedetails/144-Huckleberry-Hill-Rd-Margaretville-NY-12455/30070302_zpid/,262.3762376237624
+"545 Mcmurray Road Rds, Margaretville, NY",2156,3.5,3,42.137993,-74.693269,12455,599000.0,https://zillow.com/homedetails/545-Mcmurray-Road-Rds-Margaretville-NY-12455/2089070396_zpid/,277.82931354359926
+"2 Quail Ridge Rd, Margaretville, NY",1950,3.5,3,42.207881,-74.589254,12455,375000.0,https://zillow.com/homedetails/2-Quail-Ridge-Rd-Margaretville-NY-12455/66475347_zpid/,192.30769230769232
+"798 Main St, Margaretville, NY",7295,5.0,7,42.14855,-74.647978,12455,425000.0,https://zillow.com/homedetails/798-Main-St-Margaretville-NY-12455/215785222_zpid/,58.25908156271419
+"644 Fiddlers Elbow Rd, Margaretville, NY",2356,2.0,3,42.189976,-74.664451,12455,345000.0,https://zillow.com/homedetails/644-Fiddlers-Elbow-Rd-Margaretville-NY-12455/30069012_zpid/,146.4346349745331
+"851 Main St, Margaretville, NY",2306,4.0,4,42.149287,-74.647432,12455,295000.0,https://zillow.com/homedetails/851-Main-St-Margaretville-NY-12455/215785196_zpid/,127.92714657415438
+"128 Academy St, Margaretville, NY",3158,3.0,6,42.147533,-74.653503,12455,345000.0,https://zillow.com/homedetails/128-Academy-St-Margaretville-NY-12455/30068201_zpid/,109.24635845471818
+"2470 County Hwy 37, Margaretville, NY",1872,3.0,4,42.17474,-74.666418,12455,335000.0,https://zillow.com/homedetails/2470-County-Hwy-37-Margaretville-NY-12455/2089040206_zpid/,178.95299145299145
+"420 Old Winter Hollow Rd, Margaretville, NY",780,1.0,2,42.23783,-74.69501,12455,48500.0,https://zillow.com/homedetails/420-Old-Winter-Hollow-Rd-Margaretville-NY-12455/30068377_zpid/,62.17948717948718
+"685 Davis Rd, Margaretville, NY",2700,3.5,4,42.192898,-74.687909,12455,2500000.0,https://zillow.com/homedetails/685-Davis-Rd-Margaretville-NY-12455/30068576_zpid/,925.925925925926
+"1374 County Highway 3, Margaretville, NY",2996,4.0,3,42.125542,-74.67544,12455,550000.0,https://zillow.com/homedetails/1374-County-Highway-3-Margaretville-NY-12455/30070261_zpid/,183.5781041388518
+"44127 State Hwy # 28, Middletown, NY",4500,5.0,6,42.1636,-74.6602,12455,385000.0,https://zillow.com/homedetails/44127-State-Hwy-28-Middletown-NY-12455/2087546343_zpid/,85.55555555555556
+"1397 County Highway 36, Middletown, NY",1785,2.0,3,42.1633,-74.6605,12455,283500.0,https://zillow.com/homedetails/1397-County-Highway-36-Middletown-NY-12455/2087903528_zpid/,158.8235294117647
