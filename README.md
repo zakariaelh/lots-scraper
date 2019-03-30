@@ -12,7 +12,7 @@ To Download the installation folder, go to [gitzip](http://kinolien.github.io/gi
 4. Set-up the environment where we will run the app. Right click on `py-setup` and click on `Run as Administrator`. 
 5. Now, go to your desktop and you will find a new directory called `lots-scraper`. 
 6. Run first a test by double-cliking on `test-scraper`
-7. To run the app, double-click on `app6`, then go to http://http://127.0.0.1:8050
+7. To run the app, double-click on `app6`, then go to http://127.0.0.1:8050
 
 
 ## Long Installation
