@@ -144,7 +144,7 @@ app.layout = html.Div([
 	dcc.Dropdown(id = 'zip-input',
 				 options = [{'label': str(i).zfill(5), 'value': str(i).zfill(5)} for i in set(d_zip.zip)],
 				 multi= True,
-				 value = '24555'),
+				 value = None),
 	#button to trigger connection and scraping 
 	#html.Button('Scrape-houses', id='scrape-button-h', className = 'button-primary'),
 	#div where we output data-houses scraped
