@@ -483,9 +483,13 @@ def filter_data(d_houses, d_lots, b,
 		if (cost is not None) & (cost != ''):
 			cost = float(cost)
 			ratio = float(ratio)
-			d_lots['margin'] = (d_lots.avg_price / (
-				(d_lots.price + cost * d_lots.area * (ratio/100)) / 
-				(d_lots.area * (ratio/100))) - 1)*100
+			# d_lots['margin'] = (d_lots.avg_price / (
+			# 	(d_lots.price + cost * d_lots.area * (ratio/100)) / 
+			# 	(d_lots.area * (ratio/100))) - 1)*100
+			d_lots['cost_of_construction'] = cost * d_lots.area * (ratio/100)
+			d_lots['total_cost'] = d_lots.cost_of_construction + d_lots.price 
+			d_lots['cost_per_sqft'] = d_lots.total_cost / (d_lots.area * (ratio/100))
+			d_lots['margin'] = (d_lots.avg_price / d_lots.cost_per_sqft - 1)*100
 	
 		#filter 
 		if (min_margin is not None) & (min_margin != ''):

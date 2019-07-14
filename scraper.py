@@ -25,7 +25,8 @@ from scipy.spatial.distance import cdist
 from geopy.distance import vincenty
 from termcolor import colored
 from selenium.webdriver.firefox.options import Options
-
+from json import loads 
+from warnings import warn 
 
 # In[3]:
 
@@ -81,19 +82,46 @@ def get_info(ex):
     '''
     #log
     d_info = dict()
-    #latitude
-    latitude = ex['data-latitude']
-    #longitude
-    longitude = ex['data-longitude']
+
     #url
     url = ex.a['href']
+    print('extracting data from: ', url)
+
+    #to extract latitude/longitude, we need to use the sibling tag called script 
+    #this tag containts lat/long info 
+    latitude = None
+    longitude = None
+    #find parent tag 
+    l_ex_script = ex.parent.find_all('script')
+    #we will loop through them and try to find lat/long 
+    for script in l_ex_script:
+        try:
+            script_text = script.get_text()
+            #the text is a json and we need to convert it to dict 
+            d_script = loads(script_text)
+            #latitude is under the key geo 
+            latitude = d_script['geo']['latitude']
+            longitude = d_script['geo']['longitude']
+        except Exception as e:
+            print('No lat/lng found in script: ', script_text)
+            print(e) 
+
+    if (latitude is None) or (longitude is None):
+        warn("no latitude/longitude available for " + url )
+
+
     #bed bath area
-    bba = ex.find("span", class_ = "zsg-photo-card-info").get_text()
-    bba = bba.split('·')
+    # bba = ex.find("span", class_ = "zsg-photo-card-info").get_text()
+    # bba = bba.split('·')
+
+    bba_raw = ex.find("ul", class_ = "list-card-details").find_all("li")
+    bba = [i.get_text() for i in bba_raw]
+
     #bed
     try:
         beds = [i for i in bba if 'bd' in i][0]
-        beds = int([i for i in beds.split() if i.isdigit()][0])
+        # beds = int([i for i in beds.split() if i.isdigit()][0])
+        beds = float(beds[:beds.find('bd')])
     except Exception as e:
         print(colored('problem with beds in ', 'red'), ' ', url)
         print(e)
@@ -118,15 +146,18 @@ def get_info(ex):
         area = 'NA'
     #price
     try:
-        price = ex.find("span", class_ = "zsg-photo-card-price").get_text()
+        price = ex.find("div", class_="list-card-price").get_text()
+        #remove comma
         price = price.replace(',', '')
+        #remove dollar sign 
+        price = price.replace('$', '')
     except Exception as e:
         print(colored('problem with price in ', 'red'), ' ', url)
         print(e)     
         price = 'NA'
     #address
     try:
-        address = ex.find("span", class_ = "zsg-photo-card-address").get_text()
+        address = ex.find('h3', class_ = 'list-card-addr').get_text()
     except Exception as e:
         print(colored('no address in ', 'red'), ' ', url)
         print(e)
@@ -134,7 +165,7 @@ def get_info(ex):
     #log info
     d_info['lat'] = latitude
     d_info['lng'] = longitude
-    d_info['url'] = 'https://zillow.com' + url
+    d_info['url'] = url
     d_info['beds'] = beds
     d_info['baths'] = baths
     d_info['area'] = area
@@ -205,7 +236,9 @@ def get_houses(driver, places_int, n_pages = 'auto'):
             html = driver.page_source
             soup = BeautifulSoup(html, 'lxml')
             #get list of all listings in that page
-            l_listings = soup.find("div", {'id' : 'list-results'}).ul.find_all("article")
+            l_listings = soup.find("div", {'id' : 'grid-search-results'}).ul.find_all("article")
+
+    # return l_listings
             n_e = 0
             for ex in l_listings:
                 a = get_info(ex)
@@ -235,43 +268,53 @@ def get_info_lot(ex):
     d_info = dict()
     #url
     link = ex.find("a")['href']
-    d_info['url'] = 'https://zillow.com' + link
+    d_info['url'] = link
     #area
     try:
-        area = ex.find("span", class_ = "zsg-photo-card-info").get_text()
+        area = ex.find("ul", class_ = "list-card-details").get_text()
         d_info['area'] = area
     except:
         print('problem with area in ', link)
         d_info['area'] = 'NA'
     #price
     try:
-        price = ex.find("span", class_ = "zsg-photo-card-price").get_text()
+        price = ex.find("div", class_ = "list-card-price").get_text()
         d_info['price'] = price
     except:
         print('problem with price in ', link)
         d_info['price'] = 'NA'
+    
     #coordinates lat lon
-    try:
-        lat = ex.find("meta", {'itemprop': 'latitude'})['content']
-        lng = ex.find("meta", {'itemprop': 'longitude'})['content']
-        d_info['lat'] = lat
-        d_info['lng'] = lng
-    except Exception as e:
+    #to extract latitude/longitude, we need to use the sibling tag called script 
+    #this tag containts lat/long info 
+    latitude = None
+    longitude = None
+    #find parent tag 
+    l_ex_script = ex.parent.find_all('script')
+    #we will loop through them and try to find lat/long 
+    for script in l_ex_script:
         try:
-            #print('laitude: ', ex['data-latitude'])
-            #print('longitude: ', ex['data-longitude'])
-            lat = float(ex['data-latitude'])/1e6
-            lng = float(ex['data-longitude'])/1e6
-            d_info['lat'] = lat
-            d_info['lng'] = lng
-        except:
-            print('problem with lat-lon')
-            print(lot)
-            d_info['lat'] = 'NA'
-            d_info['lng'] = 'NA'
+            script_text = script.get_text()
+            #the text is a json and we need to convert it to dict 
+            d_script = loads(script_text)
+            #latitude is under the key geo 
+            latitude = d_script['geo']['latitude']
+            longitude = d_script['geo']['longitude']
+        except Exception as e:
+            print('No lat/lng found in script: ', script_text)
+            print('with Exception: ', e) 
+
+    if (latitude is None) or (longitude is None):
+        warn("no latitude/longitude available for " + url )
+        latitude = 'NA'
+        longitude = 'NA'
+
+    d_info['lat'] = latitude
+    d_info['lng'] = longitude
+
     #address
     try:
-        address = ex.find("span", class_ = "zsg-photo-card-address").get_text()
+        address = ex.find("h3", class_ = "list-card-addr").get_text()
         d_info['address'] = address
     except Exception as e:
         print('No address in ', url)
@@ -317,7 +360,7 @@ def get_lots(driver, places_int, n_pages = 'auto'):
             html = driver.page_source
             soup = BeautifulSoup(html, 'lxml')
             #get list of all listings in that page
-            l_lots = soup.find("div", {'id': 'search-results'}).find_all("article")
+            l_lots = soup.find("div", {'id': 'grid-search-results'}).find_all("article")
             if len(l_lots) == 0:
                 print('no lots available in ', url)
             n_e = 0 #number of errors iwth authrequired
@@ -397,8 +440,8 @@ def clean_houses(d_houses):
     '''
     #lat,lng
     boo = d_houses.lat.apply(lambda x : x != 'NA')
-    d_houses.loc[boo, 'lat'] = d_houses[boo].lat.astype(int) / 1e6
-    d_houses.loc[boo, 'lng'] = d_houses[boo].lng.astype(int) / 1e6
+    # d_houses.loc[boo, 'lat'] = d_houses[boo].lat.astype(int) / 1e6
+    # d_houses.loc[boo, 'lng'] = d_houses[boo].lng.astype(int) / 1e6
     #price
     d_houses['price'] = d_houses.price.apply(clean_price)
     # print(d_houses['area'])
